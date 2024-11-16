@@ -1,0 +1,1384 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KUTIC Aesthetic</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+   <!-- Panggil file style.css -->
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="img/logo.jpg" alt="KUTIC Logo" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Doctors</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Product</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Treatment</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Contacts</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section class="hero">
+      <div class="hero-text">
+        <h1>Beautiful Without<br /><span>Makeup</span></h1>
+        <div class="subtitle">Kindi Aesthetic</div>
+      </div>
+      <div class="hero-image"></div>
+    </section>
+    <!-- Image Slider Section -->
+    <section class="carousel-container">
+      <div id="imageCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="1.jpg" class="d-block w-100" alt="Slide 1" />
+          </div>
+          <div class="carousel-item">
+            <img src="2.jpg" class="d-block w-100" alt="Slide 2" />
+          </div>
+          <div class="carousel-item">
+            <img src="2.jpg" class="d-block w-100" alt="Slide 3" />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#imageCarousel"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#imageCarousel"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    <div class="container">
+      <div class="about">
+        <h2 class="section-title-bottom">About</h2>
+        <div class="row section align-items-center">
+          <div class="col-md-6 content-wrapper">
+            <p class="description">
+              Kindi Aesthetic berusaha untuk mengutamakam kepuasan pasien dan
+              memenuhi segala kebutuhan pasien dengan menjadi klinik perawatan
+              kulit dan estetika yang terpercaya.
+            </p>
+
+            <p class="description">
+              Klinik kecantikan yang menggabungkan elemen seni, teknologi dan
+              keterampilan dari para dokter yang selalu berorientasi memberikan
+              hasil yang terbaik untuk pasien. Kepuasan dari pasien selalu
+              menjadi unggulan dan prioritas.
+            </p>
+
+            <p class="description">
+              Kami mempersembahkan beragam rangkaian face and body treatment
+              terbaik untuk perawatan kulit sehat dan cantik alami.
+            </p>
+
+            <a
+              id="btn-read-less-room"
+              class="btn-read-less"
+              onclick="toggleText('more-room-info', 'btn-read-more-room', 'btn-read-less-room')"
+              style="display: none"
+              >Hide</a
+            >
+          </div>
+          <div class="col-md-6 image-wrapper">
+            <img src="2.jpg" alt="Room Image" />
+          </div>
+        </div>
+        <div class="row section align-items-center">
+          <div class="col-md-6 image-wrapper">
+            <img src="3.jpg" alt="Room Image" />
+          </div>
+          <div class="col-md-6 content-wrapper">
+            <p class="description">
+              Kami membantu Anda mendapatkan tampilan wajah terbaik dengan
+              menggabungkan seni dan ilmu estetika untuk menciptakan kecantikan
+              dan keindahan wajah dengan menggunakan metode inovatif dari sudut
+              pandang estetika yang profesional dan ideal.
+            </p>
+
+            <p class="description">
+              Semua prosedur perawatan kecantikan di Kindi Aesthetic dilakukan
+              oleh dokter bersertifikat dan berpengalaman di bidang estetika,
+              dengan kemampuan dan teknik yang selalu ditingkatkan serta
+              diperbarui.
+            </p>
+
+            <p class="description">
+              Klinik kami juga didukung oleh penggunaan peralatan yang memadai
+              serta dikombinasikan dengan beragam produk skincare yang terjamin
+              mutu dan kualitasnya.
+            </p>
+
+            <a
+              id="btn-read-less-room"
+              class="btn-read-less"
+              onclick="toggleText('more-room-info', 'btn-read-more-room', 'btn-read-less-room')"
+              style="display: none"
+              >Hide</a
+            >
+          </div>
+        </div>
+      </div>
+
+      <h2 class="section-title-bottom">Doctors</h2>
+      <div class="row justify-content-center mb-5 mt-5">
+        <div class="col-md-3 doctor">
+          <img
+            src="21.jpg"
+            alt="dr. Catherine Soebroto"
+            data-bs-toggle="modal"
+            data-bs-target="#doctorModal1"
+          />
+          <p>dr. Catherine Soebroto, Dipl. CIBTAC</p>
+          <p>CEO</p>
+        </div>
+        <div class="col-md-3 doctor">
+          <img
+            src="21.jpg"
+            alt="dr. Agnes Sherline"
+            data-bs-toggle="modal"
+            data-bs-target="#doctorModal2"
+          />
+          <p>dr. Agnes Sherline</p>
+          <p>Dokter</p>
+        </div>
+        <div class="col-md-3 doctor">
+          <img
+            src="21.jpg"
+            alt="dr. Armelia Rosari"
+            data-bs-toggle="modal"
+            data-bs-target="#doctorModal3"
+          />
+          <p>dr. Armelia Rosari</p>
+          <p>Dokter</p>
+        </div>
+        <div class="col-md-3 doctor">
+          <img
+            src="21.jpg"
+            alt="dr. Hermawan Adiguna"
+            data-bs-toggle="modal"
+            data-bs-target="#doctorModal4"
+          />
+          <p>dr. Hermawan Adiguna</p>
+          <p>Dokter</p>
+        </div>
+      </div>
+
+      <h2 class="section-title-bottom">Products</h2>
+      <div id="productCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row">
+              <div class="col-md-4 product">
+                <img
+                  src="5.jpg"
+                  alt="Product 1"
+                  data-bs-toggle="modal"
+                  data-bs-target="#modalProd1"
+                />
+                <p>Product 1</p>
+                <!-- Modal Product 1 -->
+                <div
+                  class="modal fade"
+                  id="modalProd1"
+                  tabindex="-1"
+                  aria-labelledby="modalProd1Label"
+                  aria-hidden="true"
+                >
+                  <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="modalProd1Label">
+                          Product 1
+                        </h5>
+                        <button
+                          type="button"
+                          class="btn-close"
+                          data-bs-dismiss="modal"
+                          aria-label="Close"
+                        ></button>
+                      </div>
+                      <div class="modal-body">
+                        <img
+                          src="5.jpg"
+                          alt="Product 1"
+                          class="img-fluid mb-3"
+                        />
+                        <p class="text-muted">
+                          Manfaat: Serum C-VIT ini membantu mencerahkan dan
+                          melembabkan kulit, mengandung vitamin C untuk kulit
+                          yang lebih bercahaya.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 product">
+                <img
+                  src="5.jpg"
+                  alt="Product 2"
+                  data-bs-toggle="modal"
+                  data-bs-target="#modalProd2"
+                />
+                <p>Product 2</p>
+                <!-- Modal Product 2 -->
+                <div
+                  class="modal fade"
+                  id="modalProd2"
+                  tabindex="-1"
+                  aria-labelledby="modalProd2Label"
+                  aria-hidden="true"
+                >
+                  <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="modalProd2Label">
+                          Product 2
+                        </h5>
+                        <button
+                          type="button"
+                          class="btn-close"
+                          data-bs-dismiss="modal"
+                          aria-label="Close"
+                        ></button>
+                      </div>
+                      <div class="modal-body">
+                        <img
+                          src="5.jpg"
+                          alt="Product 2"
+                          class="img-fluid mb-3"
+                        />
+                        <p class="text-muted">
+                          Manfaat: Mengurangi tanda penuaan dini dan
+                          meningkatkan elastisitas kulit, cocok untuk semua
+                          jenis kulit.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 product">
+                <img
+                  src="5.jpg"
+                  alt="Product 3"
+                  data-bs-toggle="modal"
+                  data-bs-target="#modalProd3"
+                />
+                <p>Product 3</p>
+                <!-- Modal Product 3 -->
+                <div
+                  class="modal fade"
+                  id="modalProd3"
+                  tabindex="-1"
+                  aria-labelledby="modalProd3Label"
+                  aria-hidden="true"
+                >
+                  <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="modalProd3Label">
+                          Product 3
+                        </h5>
+                        <button
+                          type="button"
+                          class="btn-close"
+                          data-bs-dismiss="modal"
+                          aria-label="Close"
+                        ></button>
+                      </div>
+                      <div class="modal-body">
+                        <img
+                          src="5.jpg"
+                          alt="Product 3"
+                          class="img-fluid mb-3"
+                        />
+                        <p class="text-muted">
+                          Manfaat: Membantu memulihkan kelembaban kulit dan
+                          melindungi dari radikal bebas yang merusak.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col-md-4 product">
+                <img
+                  src="5.jpg"
+                  alt="Product 4"
+                  data-bs-toggle="modal"
+                  data-bs-target="#modalProd4"
+                />
+                <p>Product 4</p>
+                <!-- Modal Product 4 -->
+                <div
+                  class="modal fade"
+                  id="modalProd4"
+                  tabindex="-1"
+                  aria-labelledby="modalProd4Label"
+                  aria-hidden="true"
+                >
+                  <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="modalProd4Label">
+                          Product 4
+                        </h5>
+                        <button
+                          type="button"
+                          class="btn-close"
+                          data-bs-dismiss="modal"
+                          aria-label="Close"
+                        ></button>
+                      </div>
+                      <div class="modal-body">
+                        <img
+                          src="5.jpg"
+                          alt="Product 4"
+                          class="img-fluid mb-3"
+                        />
+                        <p class="text-muted">
+                          Manfaat: Serum C-VIT ini membantu mencerahkan dan
+                          melembabkan kulit, mengandung vitamin C untuk kulit
+                          yang lebih bercahaya.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 product">
+                <img
+                  src="5.jpg"
+                  alt="Product 5"
+                  data-bs-toggle="modal"
+                  data-bs-target="#modalProd5"
+                />
+                <p>Product 5</p>
+                <!-- Modal Product 5 -->
+                <div
+                  class="modal fade"
+                  id="modalProd5"
+                  tabindex="-1"
+                  aria-labelledby="modalProd5Label"
+                  aria-hidden="true"
+                >
+                  <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="modalProd5Label">
+                          Product 5
+                        </h5>
+                        <button
+                          type="button"
+                          class="btn-close"
+                          data-bs-dismiss="modal"
+                          aria-label="Close"
+                        ></button>
+                      </div>
+                      <div class="modal-body">
+                        <img
+                          src="5.jpg"
+                          alt="Product 5"
+                          class="img-fluid mb-3"
+                        />
+                        <p class="text-muted">
+                          Manfaat: Mengurangi tanda penuaan dini dan
+                          meningkatkan elastisitas kulit, cocok untuk semua
+                          jenis kulit.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 product">
+                <img
+                  src="5.jpg"
+                  alt="Product 6"
+                  data-bs-toggle="modal"
+                  data-bs-target="#modalProd6"
+                />
+                <p>Product 6</p>
+                <!-- Modal Product 6 -->
+                <div
+                  class="modal fade"
+                  id="modalProd6"
+                  tabindex="-1"
+                  aria-labelledby="modalProd6Label"
+                  aria-hidden="true"
+                >
+                  <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="modalProd6Label">
+                          Product 6
+                        </h5>
+                        <button
+                          type="button"
+                          class="btn-close"
+                          data-bs-dismiss="modal"
+                          aria-label="Close"
+                        ></button>
+                      </div>
+                      <div class="modal-body">
+                        <img
+                          src="5.jpg"
+                          alt="Product 6"
+                          class="img-fluid mb-3"
+                        />
+                        <p class="text-muted">
+                          Manfaat: Membantu memulihkan kelembaban kulit dan
+                          melindungi dari radikal bebas yang merusak.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#productCarousel"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#productCarousel"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    <h2 class="section-title-center">Treatment Kitic</h2>
+    <div class="row justify-content-center">
+      <!-- Left side treatments -->
+      <div class="col-md-3 col-sm-6 d-flex flex-column facial-left">
+        <div class="treatment-icon">
+          <div class="icon-container">
+            <img src="a.png" alt="Facial Treatment" />
+          </div>
+          <strong>FACIAL TREATMENT</strong>
+          <p class="descriptions">Deskripsi Facial Treatment...</p>
+        </div>
+
+        <div class="treatment-icon mt-4">
+          <div class="icon-container">
+            <img src="b.png" alt="Skinbooster" />
+          </div>
+          <strong>SKINBOOSTER</strong>
+          <p class="descriptions">Deskripsi Skinbooster...</p>
+        </div>
+
+        <div class="treatment-icon mt-4">
+          <div class="icon-container">
+            <img src="d.png" alt="Microneedling" />
+          </div>
+          <strong>MICRONEEDLING</strong>
+          <p class="descriptions">Deskripsi Microneedling...</p>
+        </div>
+
+        <div class="treatment-icon mt-4">
+          <div class="icon-container">
+            <img src="e.png" alt="Botox Treatment" />
+          </div>
+          <strong>BOTOX TREATMENT</strong>
+          <p class="descriptions">Deskripsi Botox Treatment...</p>
+        </div>
+      </div>
+
+      <!-- Center image -->
+      <div class="col-md-4 col-sm-12 text-center">
+        <img src="8.jpg" class="img-fluid center-image" alt="Center Image" />
+      </div>
+
+      <!-- Right side treatments -->
+      <div class="col-md-3 col-sm-6 d-flex flex-column facial-right">
+        <div class="treatment-icon">
+          <div class="icon-container">
+            <img src="f.png" alt="Laser CO2" />
+          </div>
+          <strong>LASER CO2</strong>
+          <p class="descriptions">Deskripsi Laser CO2...</p>
+        </div>
+
+        <div class="treatment-icon mt-4">
+          <div class="icon-container">
+            <img src="g.png" alt="Diode and Pico" />
+          </div>
+          <strong>DIODE AND PICO</strong>
+          <p class="descriptions">Deskripsi Diode and Pico...</p>
+        </div>
+
+        <div class="treatment-icon mt-4">
+          <div class="icon-container">
+            <img src="h.png" alt="Cryolipolysis" />
+          </div>
+          <strong>CRYOLIPOLYSIS</strong>
+          <p class="descriptions">Deskripsi Cryolipolysis...</p>
+        </div>
+
+        <div class="treatment-icon mt-4">
+          <div class="icon-container">
+            <img src="i.png" alt="Slimming RF" />
+          </div>
+          <strong>SLIMMING RF</strong>
+          <p class="descriptions">Deskripsi Slimming RF...</p>
+        </div>
+      </div>
+    </div>
+    <br />
+    <br />
+    <div class="row treatment-row justify-content-center mt-5">
+      <!-- EMS Sculpting -->
+      <div class="col-md-3 col-sm-6 d-flex flex-column align-items-center">
+        <img
+          src="9.jpg"
+          class="treatment-image"
+          alt="EMS Sculpting"
+          data-bs-toggle="collapse"
+          data-bs-target="#treatment1"
+          aria-expanded="false"
+          aria-controls="treatment1"
+        />
+        <div class="treatment-name">EMS SCULPTING</div>
+      </div>
+
+      <!-- Platelet-Rich Fibrin (PRF) -->
+      <div class="col-md-3 col-sm-6 d-flex flex-column align-items-center">
+        <img
+          src="9.jpg"
+          class="treatment-image"
+          alt="Platelet-Rich Fibrin (PRF)"
+          data-bs-toggle="collapse"
+          data-bs-target="#treatment2"
+          aria-expanded="false"
+          aria-controls="treatment2"
+        />
+        <div class="treatment-name">PLATELET-RICH FIBRIN (PRF)</div>
+      </div>
+
+      <!-- Whitening -->
+      <div class="col-md-3 col-sm-6 d-flex flex-column align-items-center">
+        <img
+          src="9.jpg"
+          class="treatment-image"
+          alt="Whitening"
+          data-bs-toggle="collapse"
+          data-bs-target="#treatment3"
+          aria-expanded="false"
+          aria-controls="treatment3"
+        />
+        <div class="treatment-name">WHITENING</div>
+      </div>
+    </div>
+
+    <!-- Bundling Package -->
+    <div class="row treatment-row justify-content-center mb-5">
+      <div class="col-md-6 col-sm-8 d-flex flex-column align-items-center">
+        <img
+          src="9.jpg"
+          class="treatment-image"
+          alt="Bundling Package"
+          data-bs-toggle="collapse"
+          data-bs-target="#treatment4"
+          aria-expanded="false"
+          aria-controls="treatment4"
+        />
+        <div class="treatment-name">BUNDLING PACKAGE</div>
+      </div>
+    </div>
+
+    <!-- EMS Sculpting Modal -->
+    <div class="container">
+      <div id="treatment1" class="collapse">
+        <div class="row section align-items-center">
+          <div class="col-md-6 content-wrapper">
+            <h4>EMS Treatment</h4>
+            <h5>Kitic Basic Facial</h5>
+            <p>
+              Basic Facial termasuk jenis facial yang bermanfaat untuk
+              memudarkan noda atau flek hitam akibat paparan sinar matahari,
+              bekas jerawat, serta mengatasi warna kulit tidak rata.
+            </p>
+            <table class="table table-bordered text-center">
+              <thead>
+                <tr>
+                  <th>Harga Normal</th>
+                  <th>Harga Promo</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Rp. 200.000</td>
+                  <td>Rp. 100.000</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="col-md-6 image-wrapper">
+            <div
+              id="imageCarousel5"
+              class="carousel slide"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="1.jpg" class="d-block w-100" alt="Slide 1" />
+                </div>
+                <div class="carousel-item">
+                  <img src="2.jpg" class="d-block w-100" alt="Slide 2" />
+                </div>
+                <div class="carousel-item">
+                  <img src="2.jpg" class="d-block w-100" alt="Slide 3" />
+                </div>
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#imageCarousel5"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#imageCarousel5"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="row section align-items-center">
+          <div class="col-md-6 image-wrapper">
+            <div
+              id="imageCarousel6"
+              class="carousel slide"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="1.jpg" class="d-block w-100" alt="Slide 1" />
+                </div>
+                <div class="carousel-item">
+                  <img src="2.jpg" class="d-block w-100" alt="Slide 2" />
+                </div>
+                <div class="carousel-item">
+                  <img src="2.jpg" class="d-block w-100" alt="Slide 3" />
+                </div>
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#imageCarousel6"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#imageCarousel6"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+          <div class="col-md-6 content-wrapper">
+            <h4>Facial Treatment</h4>
+            <h5>Kitic Basic Facial</h5>
+            <p>
+              Basic Facial termasuk jenis facial yang bermanfaat untuk
+              memudarkan noda atau flek hitam akibat paparan sinar matahari,
+              bekas jerawat, serta mengatasi warna kulit tidak rata.
+            </p>
+            <table class="table table-bordered text-center">
+              <thead>
+                <tr>
+                  <th>Harga Normal</th>
+                  <th>Harga Promo</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Rp. 200.000</td>
+                  <td>Rp. 100.000</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- PRF Modal -->
+    <div class="container">
+      <div id="treatment2" class="collapse">
+        <div class="row section align-items-center">
+          <div class="col-md-6 content-wrapper">
+            <h4>PRF Treatment</h4>
+            <h5>Kitic Basic Facial</h5>
+            <p>
+              Basic Facial termasuk jenis facial yang bermanfaat untuk
+              memudarkan noda atau flek hitam akibat paparan sinar matahari,
+              bekas jerawat, serta mengatasi warna kulit tidak rata.
+            </p>
+            <table class="table table-bordered text-center">
+              <thead>
+                <tr>
+                  <th>Harga Normal</th>
+                  <th>Harga Promo</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Rp. 200.000</td>
+                  <td>Rp. 100.000</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="col-md-6 image-wrapper">
+            <div
+              id="imageCarousel1"
+              class="carousel slide"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="1.jpg" class="d-block w-100" alt="Slide 1" />
+                </div>
+                <div class="carousel-item">
+                  <img src="2.jpg" class="d-block w-100" alt="Slide 2" />
+                </div>
+                <div class="carousel-item">
+                  <img src="2.jpg" class="d-block w-100" alt="Slide 3" />
+                </div>
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#imageCarousel1"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#imageCarousel1"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="row section align-items-center">
+          <div class="col-md-6 image-wrapper">
+            <div
+              id="imageCarousel2"
+              class="carousel slide"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="1.jpg" class="d-block w-100" alt="Slide 1" />
+                </div>
+                <div class="carousel-item">
+                  <img src="2.jpg" class="d-block w-100" alt="Slide 2" />
+                </div>
+                <div class="carousel-item">
+                  <img src="2.jpg" class="d-block w-100" alt="Slide 3" />
+                </div>
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#imageCarousel2"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#imageCarousel2"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+          <div class="col-md-6 content-wrapper">
+            <h4>Facial Treatment</h4>
+            <h5>Kitic Basic Facial</h5>
+            <p>
+              Basic Facial termasuk jenis facial yang bermanfaat untuk
+              memudarkan noda atau flek hitam akibat paparan sinar matahari,
+              bekas jerawat, serta mengatasi warna kulit tidak rata.
+            </p>
+            <table class="table table-bordered text-center">
+              <thead>
+                <tr>
+                  <th>Harga Normal</th>
+                  <th>Harga Promo</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Rp. 200.000</td>
+                  <td>Rp. 100.000</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Whitening Modal -->
+    <div class="container">
+      <div id="treatment3" class="collapse">
+        <div class="row section align-items-center">
+          <div class="col-md-6 content-wrapper">
+            <h4>Whitening Treatment</h4>
+            <h5>Kitic Basic Facial</h5>
+            <p>
+              Basic Facial termasuk jenis facial yang bermanfaat untuk
+              memudarkan noda atau flek hitam akibat paparan sinar matahari,
+              bekas jerawat, serta mengatasi warna kulit tidak rata.
+            </p>
+            <table class="table table-bordered text-center">
+              <thead>
+                <tr>
+                  <th>Harga Normal</th>
+                  <th>Harga Promo</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Rp. 200.000</td>
+                  <td>Rp. 100.000</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="col-md-6 image-wrapper">
+            <div
+              id="imageCarousel3"
+              class="carousel slide"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="10.jpg" class="d-block w-100" alt="Slide 1" />
+                </div>
+                <div class="carousel-item">
+                  <img src="1.jpg" class="d-block w-100" alt="Slide 2" />
+                </div>
+                <div class="carousel-item">
+                  <img src="2.jpg" class="d-block w-100" alt="Slide 3" />
+                </div>
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#imageCarousel3"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#imageCarousel3"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="row section align-items-center">
+          <div class="col-md-6 image-wrapper">
+            <div
+              id="imageCarousel4"
+              class="carousel slide"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="1.jpg" class="d-block w-100" alt="Slide 1" />
+                </div>
+                <div class="carousel-item">
+                  <img src="2.jpg" class="d-block w-100" alt="Slide 2" />
+                </div>
+                <div class="carousel-item">
+                  <img src="2.jpg" class="d-block w-100" alt="Slide 3" />
+                </div>
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#imageCarousel4"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#imageCarousel4"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+          <div class="col-md-6 content-wrapper">
+            <h4>Facial Treatment</h4>
+            <h5>Kitic Basic Facial</h5>
+            <p>
+              Basic Facial termasuk jenis facial yang bermanfaat untuk
+              memudarkan noda atau flek hitam akibat paparan sinar matahari,
+              bekas jerawat, serta mengatasi warna kulit tidak rata.
+            </p>
+            <table class="table table-bordered text-center">
+              <thead>
+                <tr>
+                  <th>Harga Normal</th>
+                  <th>Harga Promo</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Rp. 200.000</td>
+                  <td>Rp. 100.000</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bundling Package Modal -->
+    <div class="container">
+      <div id="treatment4" class="collapse">
+        <div class="row section align-items-center">
+          <div class="col-md-6 content-wrapper">
+            <h4>Bundling Treatment</h4>
+            <h5>Kitic Basic Facial</h5>
+            <p>
+              Basic Facial termasuk jenis facial yang bermanfaat untuk
+              memudarkan noda atau flek hitam akibat paparan sinar matahari,
+              bekas jerawat, serta mengatasi warna kulit tidak rata.
+            </p>
+            <table class="table table-bordered text-center">
+              <thead>
+                <tr>
+                  <th>Harga Normal</th>
+                  <th>Harga Promo</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Rp. 200.000</td>
+                  <td>Rp. 100.000</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="col-md-6 image-wrapper">
+            <div
+              id="imageCarousel7"
+              class="carousel slide"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="10.jpg" class="d-block w-100" alt="Slide 1" />
+                </div>
+                <div class="carousel-item">
+                  <img src="1.jpg" class="d-block w-100" alt="Slide 2" />
+                </div>
+                <div class="carousel-item">
+                  <img src="2.jpg" class="d-block w-100" alt="Slide 3" />
+                </div>
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#imageCarousel7"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#imageCarousel7"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="row section align-items-center">
+          <div class="col-md-6 image-wrapper">
+            <div
+              id="imageCarousel8"
+              class="carousel slide"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="1.jpg" class="d-block w-100" alt="Slide 1" />
+                </div>
+                <div class="carousel-item">
+                  <img src="2.jpg" class="d-block w-100" alt="Slide 2" />
+                </div>
+                <div class="carousel-item">
+                  <img src="2.jpg" class="d-block w-100" alt="Slide 3" />
+                </div>
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#imageCarousel8"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#imageCarousel8"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+          <div class="col-md-6 content-wrapper">
+            <h4>Facial Treatment</h4>
+            <h5>Kitic Basic Facial</h5>
+            <p>
+              Basic Facial termasuk jenis facial yang bermanfaat untuk
+              memudarkan noda atau flek hitam akibat paparan sinar matahari,
+              bekas jerawat, serta mengatasi warna kulit tidak rata.
+            </p>
+            <table class="table table-bordered text-center">
+              <thead>
+                <tr>
+                  <th>Harga Normal</th>
+                  <th>Harga Promo</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Rp. 200.000</td>
+                  <td>Rp. 100.000</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="bg-brown text-dark py-4">
+      <div class="container">
+        <div class="row">
+          <!-- Logo dan Nama -->
+          <div class="col-md-3 text-center text-md-start mb-3 mb-md-0">
+            <img
+              src="logo.png"
+              alt="Logo"
+              class="mb-2"
+              style="max-width: 150px"
+            />
+          </div>
+          <!-- Kontak -->
+          <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+            <h6 class="fw-bold">Contact Us</h6>
+            <ul class="list-unstyled mb-0">
+              <li><i class="bi bi-instagram"></i> kiticjakarta</li>
+              <li><i class="bi bi-tiktok"></i> kiticjakarta</li>
+              <li><i class="bi bi-whatsapp"></i> 081230020033</li>
+            </ul>
+            <br />
+            <address class="mt-2 mb-0" style="font-size: 14px">
+              Jl. Moh. Kahfi 1 No. 23 5, RT.3/RW.1<br />
+              Cipedak, Kec. Jagakarsa, Jakarta Selatan 12630
+            </address>
+          </div>
+          <!-- Jam Operasional -->
+          <div class="col-md-3 text-center text-md-end">
+            <h6 class="fw-bold">Jam Operasional</h6>
+            <!-- Tambahkan isi jam operasional di sini -->
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <a href="https://wa.me/1234567890" class="floating-btn">
+      <i class="bi bi-whatsapp"></i> BOOK NOW
+    </a>
+
+    <!-- Modal Dokter -->
+    <div
+      class="modal fade"
+      id="doctorModal1"
+      tabindex="-1"
+      aria-labelledby="doctorModal1Label"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="doctorModal1Label">
+              dr. Catherine Soebroto
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            Keunggulan: Berpengalaman dalam estetika medis dan dermatologi
+            klinis selama lebih dari 15 tahun.
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="doctorModal2"
+      tabindex="-1"
+      aria-labelledby="doctorModal2Label"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="doctorModal2Label">
+              dr. Agnes Sherline
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            Keunggulan: Spesialis dalam perawatan kulit dengan pendekatan
+            holistik yang fokus pada kesehatan kulit.
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade"
+      id="doctorModal3"
+      tabindex="-1"
+      aria-labelledby="doctorModal2Label"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="doctorModal2Label">
+              dr. Armelia Rosari
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            Keunggulan: Spesialis dalam perawatan kulit dengan pendekatan
+            holistik yang fokus pada kesehatan kulit.
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade"
+      id="doctorModal4"
+      tabindex="-1"
+      aria-labelledby="doctorModal2Label"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="doctorModal2Label">
+              dr. Hermawan Adiguna
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            Keunggulan: Spesialis dalam perawatan kulit dengan pendekatan
+            holistik yang fokus pada kesehatan kulit.
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const treatments = document.querySelectorAll(".treatment-image");
+
+        treatments.forEach((treatment) => {
+          treatment.addEventListener("click", function () {
+            const targetId = this.getAttribute("data-bs-target");
+
+            // Tutup semua elemen yang sedang terbuka
+            document.querySelectorAll(".collapse").forEach((item) => {
+              if (item.id !== targetId.substring(1)) {
+                item.classList.remove("show");
+              }
+            });
+          });
+        });
+      });
+    </script>
+  </body>
+</html>
