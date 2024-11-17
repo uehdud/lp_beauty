@@ -1,4 +1,3 @@
-
 body {
   font-family: "Playfair Display", serif;
   margin: 0;
@@ -290,4 +289,17 @@ footer ul li {
     align-items: center !important; /* Gunakan center alignment */
     text-align: center; /* Pastikan teks juga berada di tengah */
   }
+}
+.collapse {
+  transition: opacity 0.5s ease, transform 0.5s ease;
+  opacity: 0;
+  transform: translateY(50px); /* Memulai elemen 20px di bawah */
+}
+.collapsing {
+  opacity: 0;
+  transform: translateY(50px);
+}
+.collapse.show {
+  opacity: 1;
+  transform: translateY(0); /* Elemen kembali ke posisi semula */
 }
