@@ -236,9 +236,9 @@ body {
   font-size: 16px;
   margin-top: 10px;
 }
-.container {
+/* .container {
   max-width: 800px;
-}
+} */
 /* Adjust size for Bundling Package */
 .bundling-package .treatment-image {
   max-width: 300px;
@@ -290,16 +290,13 @@ footer ul li {
     text-align: center; /* Pastikan teks juga berada di tengah */
   }
 }
-.collapse {
+#treatment1 #treatment2 #treatment3 #treatment4  {
   transition: opacity 0.5s ease, transform 0.5s ease;
   opacity: 0;
-  transform: translateY(50px); /* Memulai elemen 20px di bawah */
+  transform: translateY(20px); /* Memulai elemen 20px di bawah */
 }
 .collapsing {
   opacity: 0;
-  transform: translateY(50px);
+  transform: translateY(20px);
 }
-.collapse.show {
-  opacity: 1;
-  transform: translateY(0); /* Elemen kembali ke posisi semula */
-}
+
