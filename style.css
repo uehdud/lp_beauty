@@ -4,6 +4,10 @@ body {
   padding: 0;
   background-color: #fff;
 }
+body.modal-open {
+  padding-right: 0 !important;
+}
+
 .navbar {
   border-bottom: 1px solid #e5e5e5;
   display: flex;
@@ -267,6 +271,12 @@ footer ul li {
 }
 /* Style khusus untuk tampilan kecil */
 @media (max-width: 768px) {
+  .custom-modal {
+    bottom: 10%; /* Atur persentase ini untuk mengubah posisi modal */
+    transform: translateY(
+      0
+    ); /* Menimpa translate bawaan dari modal-dialog-centered */
+  }
   .center-image {
     max-width: 150px;
     margin-top: 20px;
@@ -290,7 +300,7 @@ footer ul li {
     text-align: center; /* Pastikan teks juga berada di tengah */
   }
 }
-#treatment1 #treatment2 #treatment3 #treatment4  {
+#treatment1 #treatment2 #treatment3 #treatment4 {
   transition: opacity 0.5s ease, transform 0.5s ease;
   opacity: 0;
   transform: translateY(20px); /* Memulai elemen 20px di bawah */
@@ -299,4 +309,3 @@ footer ul li {
   opacity: 0;
   transform: translateY(20px);
 }
-
