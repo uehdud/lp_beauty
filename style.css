@@ -9,6 +9,7 @@ body.modal-open {
 }
 
 .navbar {
+  background-color: #efe2d9;
   border-bottom: 1px solid #e5e5e5;
   display: flex;
   justify-content: space-between;
@@ -98,6 +99,7 @@ body.modal-open {
   overflow: hidden;
   margin-top: 70px;
   margin-bottom: 70px;
+  
 }
 .carousel-item img {
   width: 100%;
@@ -169,7 +171,6 @@ body.modal-open {
   color: #9a6e51;
   font-size: 24px;
   font-weight: bold;
-  margin-top: 60px;
   margin-bottom: 20px;
   text-align: center;
 }
@@ -248,7 +249,7 @@ body.modal-open {
   max-width: 300px;
 }
 .bg-brown {
-  background-color: #9a6e51; /* Sesuaikan dengan warna gambar */
+  background-color: #e6cdb9; /* Sesuaikan dengan warna gambar */
 }
 
 .text-light {
