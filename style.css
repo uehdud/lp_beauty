@@ -7,17 +7,11 @@ body {
 body.modal-open {
   padding-right: 0 !important;
 }
-#about,
-#dokter,
-#produk,
-#treatment {
-  scroll-margin-top: 180px; /* Sesuaikan nilai dengan tinggi navbar */
-}
 
 .navbar {
   position: sticky;
   top: 0;
-  z-index: 1020;
+  z-index: 1020; 
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   padding: 0.5rem 0;
   background-color: #efe2d9;
@@ -110,6 +104,7 @@ body.modal-open {
   overflow: hidden;
   margin-top: 70px;
   margin-bottom: 70px;
+  
 }
 .carousel-item img {
   width: 100%;
@@ -282,17 +277,6 @@ footer ul li {
 }
 /* Style khusus untuk tampilan kecil */
 @media (max-width: 768px) {
- 
-  #produk,
-  #treatment {
-    scroll-margin-top: 350px; /* Sesuaikan nilai dengan tinggi navbar */
-  }
-  #about,
-  #dokter,
-  #produk,
-  #treatment {
-    scroll-margin-top: 380px; /* Sesuaikan nilai dengan tinggi navbar */
-  }
   .custom-modal {
     bottom: 10%; /* Atur persentase ini untuk mengubah posisi modal */
     transform: translateY(
@@ -320,6 +304,20 @@ footer ul li {
   .facial-right {
     align-items: center !important; /* Gunakan center alignment */
     text-align: center; /* Pastikan teks juga berada di tengah */
+  }
+
+  .floating-btn {
+    position: fixed;
+    right: 100px;
+    background-color: #28a745;
+    color: #fff;
+    padding: 15px 30px;
+    border-radius: 50px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
   }
 }
 #treatment1 #treatment2 #treatment3 #treatment4 {
