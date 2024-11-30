@@ -7,8 +7,19 @@ body {
 body.modal-open {
   padding-right: 0 !important;
 }
+#about,
+#dokter,
+#produk,
+#treatment {
+  scroll-margin-top: 180px; /* Sesuaikan nilai dengan tinggi navbar */
+}
 
 .navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1020;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 0.5rem 0;
   background-color: #efe2d9;
   border-bottom: 1px solid #e5e5e5;
   display: flex;
@@ -99,7 +110,6 @@ body.modal-open {
   overflow: hidden;
   margin-top: 70px;
   margin-bottom: 70px;
-  
 }
 .carousel-item img {
   width: 100%;
@@ -272,6 +282,17 @@ footer ul li {
 }
 /* Style khusus untuk tampilan kecil */
 @media (max-width: 768px) {
+ 
+  #produk,
+  #treatment {
+    scroll-margin-top: 350px; /* Sesuaikan nilai dengan tinggi navbar */
+  }
+  #about,
+  #dokter,
+  #produk,
+  #treatment {
+    scroll-margin-top: 380px; /* Sesuaikan nilai dengan tinggi navbar */
+  }
   .custom-modal {
     bottom: 10%; /* Atur persentase ini untuk mengubah posisi modal */
     transform: translateY(

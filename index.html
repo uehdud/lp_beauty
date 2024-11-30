@@ -44,11 +44,21 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">About</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Doctors</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Product</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Treatment</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Contacts</a></li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#dokter">Doctors</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#produk">Product</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#treatment">Treatment</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#kontak">Contacts</a>
+            </li>
           </ul>
         </div>
       </div>
@@ -105,7 +115,7 @@
         </button>
       </div>
     </section>
-    <div class="" style="background-color: #efe2d9">
+    <div class="" style="background-color: #efe2d9" id="about">
       <div class="container">
         <div class="about">
           <h2 class="section-title-bottom">About</h2>
@@ -198,7 +208,7 @@
         </div>
       </div>
     </div>
-    <div class="mt-5 mb">
+    <div class="mt-5 mb" id="dokter">
       <div class="container">
         <div
           data-aos="fade-up-right"
@@ -252,7 +262,7 @@
       </div>
     </div>
 
-    <div class="mt-5" style="background-color: #e6cdb9">
+    <div class="mt-5" style="background-color: #e6cdb9" id="produk">
       <div class="container">
         <div class="mt-5">
           <br />
@@ -579,12 +589,12 @@
           </div>
         </div>
       </div>
-      <br>
-      <br>
+      <br />
+      <br />
     </div>
-    <div class="" style="background-color: #efe2d9">
-      <br>
-      <br>
+    <div class="" style="background-color: #efe2d9" id="treatment">
+      <br />
+      <br />
       <h2 class="section-title-center">Treatment Kitic</h2>
       <div class="row justify-content-center">
         <!-- Left side treatments -->
@@ -707,8 +717,8 @@
           </div>
         </div>
       </div>
-      <br>
-      <br>
+      <br />
+      <br />
     </div>
     <br />
     <br />
@@ -1363,7 +1373,7 @@
         </div>
       </div>
     </div>
-    <footer class="bg-brown text-dark py-4">
+    <footer class="bg-brown text-dark py-4" id="kontak">
       <div class="container">
         <div class="row">
           <!-- Logo dan Nama -->
@@ -1529,6 +1539,17 @@
               }
             });
           });
+        });
+      });
+
+      // Menutup menu navbar secara otomatis setelah klik
+      document.querySelectorAll(".navbar-nav .nav-link").forEach((link) => {
+        link.addEventListener("click", () => {
+          const navbarCollapse = document.querySelector(".navbar-collapse");
+          if (navbarCollapse.classList.contains("show")) {
+            // Menutup menu
+            new bootstrap.Collapse(navbarCollapse).toggle();
+          }
         });
       });
     </script>
